@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/antonglomadov/CLionProjects/readBmp/BMP.h
+fstream
+-
+vector
+-
+stdexcept
+-
+iostream
+-
+
+/Users/antonglomadov/CLionProjects/readBmp/main.cpp
+BMP.h
+/Users/antonglomadov/CLionProjects/readBmp/BMP.h
+
